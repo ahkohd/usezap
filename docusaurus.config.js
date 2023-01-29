@@ -57,6 +57,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        disableSwitch: true,
+      },
       navbar: {
         title: "Zap",
         logo: {
@@ -79,7 +82,7 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
             title: "Docs",
@@ -117,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Victor Aremu.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Victor Aremu`,
       },
       prism: {
         theme: lightCodeTheme,
