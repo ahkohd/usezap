@@ -10,6 +10,13 @@
   overflow: hidden;
 }
 
+.hero__subtitle {
+  max-width: 800px;
+  display: table;
+  margin: 0.3rem auto 2rem auto;
+  text-align: center;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
