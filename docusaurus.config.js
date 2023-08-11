@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Zap",
   tagline:
-    "Maximize your productivity on macOS with a Dock designed for efficiency, inspired by the popular text editor Vim.",
+    "A spotlight-like dock with Vim motions",
   url: "https://usezap.sh",
   baseUrl: "/",
   onBrokenLinks: "throw",

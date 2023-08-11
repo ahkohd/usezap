@@ -4,45 +4,39 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Navigate at the Speed-of-Thought",
+    title: "Navigate at the speed-of-thought",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Bind your favorite apps with custom shortcuts and switch to them with a
-        single keystroke. Focus on what truly matters and take your productivity
-        to new heights.
+        Bind and activate your apps with shortcuts,
+        focus on what truly matters
       </>
     ),
   },
   {
-    title: "A Dock-as-a-Spotlight",
+    title: "A spotlight-like dock",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Arrange your dock as needed and access all your apps in a single,
-        organized window for quick and convenient access.
+        A macOS-like dock reimagined as a Spotlight launcher
       </>
     ),
   },
   {
-    title: "Effortless Context Switching",
+    title: "Effortless context switching",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Experience seamless productivity with app spaces, where different work
-        contexts are elevated to a whole new level. Effortlessly create,
-        organize, and switch between these spaces to maximize your workflow.
+        Organize your apps into workspaces and switch between them
       </>
     ),
   },
   {
-    title: "Seamless Multi-screen support",
+    title: "Designed for multiple screen setup",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Maximize your multi-screen setup with Zap's seamless support. Quickly
-        switch to apps on other screens and have your mouse automatically moved
-        to the window for effortless navigation.
+        Activate windows on other screens and have your mouse auto-positioned&trade;
       </>
     ),
   },
@@ -58,7 +52,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Vim-inspired Navigation",
+    title: "Vim motions",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
