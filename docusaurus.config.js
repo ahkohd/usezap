@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Zap",
+  title: "zap",
   tagline:
     "A spotlight-like dock with Vim motions",
   url: "https://usezap.sh",
@@ -15,8 +15,6 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "ahkohd", // Usually your GitHub org/user name.
   projectName: "usezap", // Usually your repo name.
 
@@ -58,70 +56,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        disableSwitch: true,
+        disableSwitch: false,
       },
       navbar: {
-        title: "Zap",
+        // title: "zap",
         logo: {
           alt: "Zap logo",
           src: "img/logo.png",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/ahkohd/usezap",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
+        items: [],
       },
-      footer: {
-        style: "light",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/zxpkReVe",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/usezap",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/ahkohd/usezap",
-              },
-            ],
-          },
-        ],
-        // copyright: `Copyright © ${new Date().getFullYear()} Victor Aremu`,
-      },
+      footer: {},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
