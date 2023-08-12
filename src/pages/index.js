@@ -17,7 +17,7 @@ function HomepageHeader() {
           {siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="/docs/intro">
+          <Link className="button button--primary button--lg" to="/docs/getting_started/basics">
             Read the manual
           </Link>
         </div>
@@ -27,10 +27,9 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} manual`}
+      title="manual"
       description="zap manual | a Spotlight-like dock with Vim motions"
     >
       <HomepageHeader />
