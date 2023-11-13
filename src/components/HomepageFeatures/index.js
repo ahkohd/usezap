@@ -6,51 +6,31 @@ const FeatureList = [
   {
     title: "🚄 Navigate at the speed-of-thought",
     description: (
-      <>
-        Activate your apps with shortcuts,
-        focus on what truly matters!
-      </>
+      <>Activate your apps with shortcuts, focus on what truly matters!</>
     ),
   },
   {
     title: "🚥 A spotlight-like dock",
     description: (
-      <>
-        The macOS Dock and Launchpad reimagined as a Spotlight window
-      </>
+      <>The macOS Dock and Launchpad reimagined as a Spotlight window</>
     ),
   },
   {
     title: "💫 Effortless context switching",
-    description: (
-      <>
-        Organize your apps into spaces for easy context switch
-      </>
-    ),
+    description: <>Organize your apps into spaces for easy context switch</>,
   },
   {
     title: "🖥 Designed for multiple screen setup",
     description: (
       <>
-        Jump to windows on other screens and have your mouse auto-positioned&trade;
+        Jump to windows on other screens and have your mouse
+        auto-positioned&trade;
       </>
     ),
   },
   {
     title: "💨 Vim motions",
-    description: (
-      <>
-        Cycle between apps, windows, spaces using Vim motions
-      </>
-    ),
-  },
-  {
-    title: "🎚 A Command-Tab replacement",
-    description: (
-      <>
-        You can replace the macOS Command-Tab Switcher with Zap!
-      </>
-    ),
+    description: <>Cycle between apps, windows, spaces using Vim motions</>,
   },
 ];
 

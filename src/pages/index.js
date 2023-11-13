@@ -17,7 +17,10 @@ function HomepageHeader() {
           {siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="/docs/getting_started/basics">
+          <Link
+            className="button button--primary button--lg"
+            to="/docs/getting_started/tour"
+          >
             Read the manual
           </Link>
         </div>
