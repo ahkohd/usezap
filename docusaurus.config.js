@@ -7,8 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "zap",
-  tagline:
-    "A spotlight-like dock with Vim motions",
+  tagline: "navigate your mac apps at the speed of thought",
   url: "https://usezap.sh",
   baseUrl: "/",
   onBrokenLinks: "throw",
