@@ -56,6 +56,7 @@ const config = {
     ({
       colorMode: {
         disableSwitch: false,
+        defaultMode: "dark",
       },
       navbar: {
         // title: "zap",

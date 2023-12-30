@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# a quick tour
+# A quick tour
 
 To quickly get started on how to use zap, watch the tour video.
 
