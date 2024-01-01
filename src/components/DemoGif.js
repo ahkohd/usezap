@@ -3,7 +3,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export const DemoGif = ({ src, alt }) => (
   <img
-    style={{ borderRadius: "46px", margin: "" }}
+    style={{ borderRadius: "30px", margin: "" }}
     src={useBaseUrl(src)}
     alt={alt}
   />
