@@ -1,0 +1,25 @@
+---
+sidebar_position: 4
+---
+
+# Spaces
+
+In the dynamic world of a Mac user, we often find ourselves switching between different apps for various tasks.
+For instance, when diving into reading and research, it's common to hop between
+a browser, a note-taking, a reading management app, and an ebook reader app.
+This pattern is similar in other activities too, like multi-media editing or coding, where specific sets of apps are in constant use.
+
+To address this, zap Spaces offers a solution to organize the apps you frequently use together. It enables you to create tailored workspaces for each of your activities.
+
+## Accessing a Space
+
+Initially, when you start using zap, you are automatically positioned in the first space.
+To navigate between spaces, begin by ensuring that the Zap dock is active.
+You can activate it by pressing <kbd>Cmd</kbd>+<kbd>;</kbd>.
+
+Once the dock is visible, you have simple keyboard shortcuts to move between spaces:
+
+- To switch to the next space, press <kbd>j</kbd>.
+- To return to the previous space, press <kbd>k</kbd>.
+
+zap offers you a total of `10` distinct spaces, allowing ample room for organizing different sets of applications as per your various work or leisure activities. This setup provides an efficient and intuitive way to manage and access your applications, streamlining your workflow on your Mac.
