@@ -6,17 +6,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Zap",
-  tagline:
-    "Maximize your productivity on macOS with a Dock designed for efficiency, inspired by the popular text editor Vim.",
+  title: "zap",
+  tagline: "navigate your mac apps at the speed of thought",
   url: "https://usezap.sh",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "ahkohd", // Usually your GitHub org/user name.
   projectName: "usezap", // Usually your repo name.
 
@@ -57,68 +54,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        disableSwitch: false,
+        defaultMode: "dark",
+      },
       navbar: {
-        title: "Zap",
+        // title: "zap",
         logo: {
           alt: "Zap logo",
           src: "img/logo.png",
         },
-        items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/ahkohd/usezap",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
+        items: [],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/zxpkReVe",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/usezap",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/ahkohd/usezap",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Victor Aremu.`,
-      },
+      footer: {},
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

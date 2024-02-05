@@ -18,10 +18,10 @@ function HomepageHeader() {
         </p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
+            className="button button--primary button--lg"
+            to="/docs/getting_started/tour"
           >
-            Get started
+            Read the manual
           </Link>
         </div>
       </div>
@@ -30,11 +30,10 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title="manual"
+      description="zap manual | a Spotlight-like dock with Vim motions"
     >
       <HomepageHeader />
       <main>

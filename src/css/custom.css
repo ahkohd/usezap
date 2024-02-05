@@ -4,11 +4,14 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-font-family-base: 'Bricolage Grotesque';
   --ifm-color-primary: #6564f6;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-dark: #4847bc;
+  --ifm-color-primary-darker: #363596;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
@@ -18,16 +21,24 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #31314e;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
+[data-theme="dark"] {
+  --ifm-color-primary: #6564f6;
+  --ifm-color-primary-dark: #4847bc;
+  --ifm-color-primary-darker: #363596;
+  --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
   --ifm-font-color-base-inverse: #fff;
-  /* --ifm-button-background-color: ; */
+}
+
+.navbar {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.footer {
+  display: none !important;
 }
