@@ -7,8 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "zap",
-  tagline:
-    "A macOS launcher that makes navigating apps convenient.",
+  tagline: "navigate your mac apps at the speed of thought",
   url: "https://usezap.sh",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -57,6 +56,7 @@ const config = {
     ({
       colorMode: {
         disableSwitch: false,
+        defaultMode: "dark",
       },
       navbar: {
         // title: "zap",
