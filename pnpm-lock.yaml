@@ -12,8 +12,8 @@ dependencies:
     specifier: 3.1.1
     version: 3.1.1(@algolia/client-search@4.19.1)(@types/react@18.2.18)(react-dom@17.0.2)(react@17.0.2)(search-insights@2.7.0)(typescript@5.1.6)
   '@mdx-js/react':
-    specifier: ^1.6.22
-    version: 1.6.22(react@17.0.2)
+    specifier: ^3.0.0
+    version: 3.0.0(@types/react@18.2.18)(react@17.0.2)
   clsx:
     specifier: ^2.0.0
     version: 2.1.0
@@ -2496,14 +2496,6 @@ packages:
       vfile: 6.0.1
     transitivePeerDependencies:
       - supports-color
-
-  /@mdx-js/react@1.6.22(react@17.0.2):
-    resolution: {integrity: sha512-TDoPum4SHdfPiGSAaRBw7ECyI8VaHpK8GJugbJIJuqyh6kzw9ZLJZW3HGL3NNrJGxcAixUvqROm+YuQOo5eXtg==}
-    peerDependencies:
-      react: ^16.13.1 || ^17.0.0
-    dependencies:
-      react: 17.0.2
-    dev: false
 
   /@mdx-js/react@3.0.0(@types/react@18.2.18)(react@17.0.2):
     resolution: {integrity: sha512-nDctevR9KyYFyV+m+/+S4cpzCWHqj+iHDHq3QrsWezcC+B17uZdIWgCguESUkwFhM3n/56KxWVE3V6EokrmONQ==}
